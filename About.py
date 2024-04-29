@@ -3,6 +3,7 @@ import pandas as pd
 from PIL import Image
 import time
 # from openai import OpenAI
+import os
 
 
 
@@ -30,6 +31,8 @@ st.markdown("""
 ### AI-CONSULTANT ACROSS ENTERPRISES""", unsafe_allow_html=True)
 
 
+# go to the current directory
+os.chdir(os.path.dirname(__file__))
 # st.write("Welcome to the main page of our multi-page Streamlit app!")
 # Load an image
 
