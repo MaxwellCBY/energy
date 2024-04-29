@@ -28,7 +28,7 @@ def first_page():
 
     # Load data safely
     try:
-        folder_path = 'oilgas.xlsx'
+        folder_path = 'oilgasdata/oilgas.xlsx'
         df = pd.read_excel(folder_path)
     except Exception as e:
         st.error(f"Failed to load data: {e}")
@@ -137,8 +137,8 @@ def second_page():
         st.markdown("<br><br><br>", unsafe_allow_html=True)  # Adds two line breaks 
 
         # Load content
-        default_question = load_text('default_question.txt')
-        AI_answer = load_text('AI_answer.txt')      
+        default_question = load_text('questions_oilgas/default_question.txt')
+        AI_answer = load_text('questions_oilgas/AI_answer.txt')      
 
         # Input for AI assistant
         user_input = st.text_area(
@@ -193,8 +193,8 @@ def third_page():
     # st.markdown("<br>", unsafe_allow_html=True)  # Adds two line breaks
 
     # load question
-    q_privacy = load_text('private_question.txt')
-    a_privacy = load_text('p_AI_answer.txt')
+    q_privacy = load_text('questions_oilgas/private_question.txt')
+    a_privacy = load_text('questions_oilgas/p_AI_answer.txt')
     st.header(" ", divider="rainbow")
     st.markdown(
                 "**Company 1:** Application successful, you can continue to inquire about internal materials through the AI consultant.")
