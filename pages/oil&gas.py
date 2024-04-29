@@ -18,7 +18,7 @@ def first_page():
 
     with st.expander("Structure", expanded=False):
 
-        image_path_1 = r'image\about\3.png'
+        image_path_1 = 'image/about/3.png'
         image_1 = Image.open(image_path_1)  
         st.image(image_1, caption="Member companies in the association.")
 
@@ -28,7 +28,7 @@ def first_page():
 
     # Load data safely
     try:
-        folder_path = r'F:\PhD\x\oilgas.xlsx'
+        folder_path = 'oilgas.xlsx'
         df = pd.read_excel(folder_path)
     except Exception as e:
         st.error(f"Failed to load data: {e}")
@@ -109,7 +109,7 @@ def second_page():
 
     with st.expander("Structure", expanded=False):
 
-        image_path_2 = r'image\about\5.png'
+        image_path_2 = 'image/about/5.png'
         image_2 = Image.open(image_path_2)
         st.image(image_2, caption="1- Platform AI understands the question, 2- Platform AI sends the question to companies' AIs, 3- Companies' AIs answer the question, 4- Platform AI summarizes the answers.")
 
@@ -184,7 +184,7 @@ def third_page():
     # st.write("协议公开需要企业授权同意后您才可以继续咨询解决方案、或者报价。")
 
     with st.expander("Structure", expanded=False):
-        image_path_3 = r'image\about\7.png'
+        image_path_3 = 'image/about/7.png'
         image_3 = Image.open(image_path_3)
         st.image(image_3, caption="After obtaining permission, you can continue to converse with the company's AI assistant to obtain more information.")
 

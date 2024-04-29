@@ -37,7 +37,7 @@ os.chdir(os.path.dirname(__file__))
 # Load an image
 
 with st.expander("Structure", expanded=False):
-    image_path_1 = r'image\about\1.png'
+    image_path_1 = 'image/about/1.png'
     image_1 = Image.open(image_path_1)
     # show images
     st.image(image_1, caption=cap1)
@@ -45,40 +45,40 @@ with st.expander("Structure", expanded=False):
 
 
 with st.expander("Public information", expanded=False):
-    image_path_2 = r'image\about\2.png'
+    image_path_2 = 'image/about/2.png'
     image_2 = Image.open(image_path_2)
     st.image(image_2, caption=cap2)
     # st.markdown("<br><br>", unsafe_allow_html=True)  # Adds two line breaks
 
 
 with st.expander("Public information Search", expanded=False):
-    image_path_3 = r'image\about\3.png'
+    image_path_3 = 'image/about/3.png'
     image_3 = Image.open(image_path_3)
     st.image(image_3, caption=cap3)
     # st.markdown("<br><br>", unsafe_allow_html=True)  # Adds two line breaks
 
 
 with st.expander("Member information", expanded=False):
-    image_path_4 = r'image\about\4.png'
+    image_path_4 = 'image/about/4.png'
     image_4 = Image.open(image_path_4)
     st.image(image_4, caption=cap4)
     # st.markdown("<br><br>", unsafe_allow_html=True)  # Adds two line breaks
 
 
 with st.expander("Member information Search", expanded=False):
-    image_path_5 = r'image\about\5.png'
+    image_path_5 = 'image/about/5.png'
     image_5 = Image.open(image_path_5)
     st.image(image_5, caption=cap5)
     # st.markdown("<br><br>", unsafe_allow_html=True)  # Adds two line breaks
 
 with st.expander("Protocol Public information", expanded=False):
-    image_path_6 = r'image\about\6.png'
+    image_path_6 = 'image/about/6.png'
     image_6 = Image.open(image_path_6)
     st.image(image_6, caption=cap6)
     # st.markdown("<br><br>", unsafe_allow_html=True)  # Adds two line breaks
 
 with st.expander("Authoritation", expanded=False):
-    image_path_7 = r'image\about\7.png'
+    image_path_7 = 'image/about/7.png'
     image_7 = Image.open(image_path_7)
     st.image(image_7, caption=cap7)
     # st.markdown("<br><br>", unsafe_allow_html=True)  # Adds two line breaks
