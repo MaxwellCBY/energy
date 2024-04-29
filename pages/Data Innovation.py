@@ -263,7 +263,7 @@ pages = {
 
 def main():
     st.sidebar.title("Menu")
-    selection = st.sidebar.radio("", list(pages.keys()))
+    selection = st.sidebar.radio("-", list(pages.keys()))
 
     # Display the selected page with the session state
     page = pages[selection]
