@@ -102,10 +102,8 @@ def General_info():
         else:
             st.dataframe(filtered_df)
     else:
-        # If no keyword is given, sample 10 random rows from the dataframe
-        filtered_df = df.sample(10, random_state=1)  # Use a fixed seed for consistency
-        st.dataframe(filtered_df)
-
+        # If no keyword is given, show the first 10 rows
+        st.dataframe(df.head(10))
     # --- this table doesn't allow to download the data
     # -------------------------------------------------
 
