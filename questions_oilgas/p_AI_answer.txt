@@ -1,10 +1,3 @@
-we utilize a range of high-tech sensors to ensure comprehensive monitoring and analysis of offshore oil and gas production platforms. Here are some of the key sensors we deploy:
+It took 2 months in Project 1 in North Sea.
 
-**Pressure Sensors:** These are critical for monitoring the pressure levels within wells and pipelines, ensuring that they are operating within safe and efficient parameters.
-**Temperature Sensors:** These sensors are used to monitor the temperature of the oil and gas that is extracted, which is crucial for maintaining optimal flow rates and preventing blockages or equipment damage.
-**Flow Meters:** Flow meters are employed to accurately measure the rate at which oil and gas are flowing through the pipelines, providing essential data for optimizing production efficiency.
-**Acoustic Sensors:** These are used to detect and analyze sound waves in the subsea environment. They help in identifying gas leaks or changes in equipment performance.
-**Corrosion Sensors:** To prevent and monitor corrosion, which can lead to critical failures, these sensors provide real-time data on the condition of pipes and structures.
-**Vibration Sensors:** These sensors monitor the vibrations on the platform and associated equipment, which can indicate potential failures or the need for maintenance.
-**Seismic Sensors: **Particularly important in earthquake-prone areas, these sensors monitor seismic activity and its potential impact on platform stability and safety.
-Each sensor type integrates into our centralized data system, which uses AI-driven analytics to provide real-time insights and predictive maintenance alerts, enhancing operational safety and efficiency. Our sensor suite is customizable to meet specific operational needs and environmental conditions, ensuring that every platform we equip is prepared to handle its unique challenges.
+It took 3 months in Project 2 in America.

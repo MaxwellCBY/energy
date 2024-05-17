@@ -175,15 +175,15 @@ def platform_AI():
 
         # Expanders for video content
         with st.expander("Company A"):
-            # insert a video
-            st.video("image/oil1.mp4")
+            # insert a video, with play automatically
+            st.video("image/oilgas/video1.mp4", start_time=0)
         with st.expander("Company B"):
             # insert a image
-            image2 = Image.open("image/oil2.jpg")
+            image2 = Image.open("image/oilgas/2.png")
             st.image(image2, caption="Product", use_column_width=True)
         with st.expander("Company C"):
             # insert a image
-            image3 = Image.open("image/oil3.png")
+            image3 = Image.open("image/oilgas/3.png")
             st.image(image3, caption="Product", use_column_width=True)
 
         st.subheader("Continue with Company AI", divider="rainbow")
@@ -218,7 +218,7 @@ def company_AI():
                 "**A Company:** Application successful, you can continue to inquire about internal materials through the AI consultant.")
 
     # This button will toggle the state for showing the input area
-    if st.button("A Company AI]"):
+    if st.button("A Company AI"):
         st.session_state['show_input'] = not st.session_state.get('show_input', False)
 
     # Check if the session state has been set to show input area

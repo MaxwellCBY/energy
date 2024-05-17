@@ -1,5 +1,5 @@
-I would like to do monitoring and analysis for offshore oil and gas production platforms. Which foreign companies have mature technologies?
+I want to build a digital twin of my subsea production system, which company do you recommend? 
 
-我想做海洋油气生产平台的监控分析，请问哪些国外的公司有成熟技术呢？
+我想为公司的水下油气生产系统做数字孪生，请问哪些公司可以提供这项技术呢？
 
-Eu gostaria de fazer monitoramento e análise para plataformas de produção de petróleo e gás offshore. Quais empresas estrangeiras possuem tecnologias maduras?
+Quiero crear un gemelo digital para el sistema de producción de petróleo y gas submarino de mi empresa. ¿Qué empresas pueden proporcionar esta tecnología?
