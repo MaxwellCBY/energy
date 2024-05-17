@@ -100,6 +100,7 @@ def General_info():
         if filtered_df.empty:
             st.warning("No results found. Try different keywords or check for typos.")
         else:
+            st.write(f"Found {len(filtered_df)} results:")
             st.dataframe(filtered_df)
     else:
         # If no keyword is given, show the first 10 rows
